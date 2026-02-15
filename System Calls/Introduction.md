@@ -174,7 +174,7 @@
           Group: read(4)
           Others: read(4)
 
-          !MORE IN-DEPTH EXPLANATION UNDER THE CODE FOR THE OCTAL!
+          if your not familiar with permission param Check out Permission Representation.md
       */
     
       int file = open("file.txt", O_CREAT | O_RDWR, 0644);
